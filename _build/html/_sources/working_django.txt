@@ -87,7 +87,7 @@ Running Django Project
    :alt: Homepage
 
                                        
-Changing Developement server port
+Changing Developement Server Port
 ---------------------------------
 
 - By default, the runserver command starts the development server on port 8000, listening only for local connections. If you want to change the server’s port, pass it as a command-line argument ::
@@ -101,4 +101,9 @@ Changing Developement server port
 When you’ve done this, other computers on your local network will be able to view your Django site by visiting your IP address in their Web browsers, e.g., http://192.168.1.103:8000/ . (Note that you’ll have to consult your network settings to determine your IP address on the local network. Unix users, try running “ifconfig” in a command prompt to get this information. Windows users, try “ipconfig”.)
         
     
+Creating superuser for admin
+----------------------------
 
+Type the command in yout project directory and enter all the questions ::
+
+    python manage.py createsuperuser

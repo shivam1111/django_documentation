@@ -101,4 +101,9 @@ Changing Developement Server Port
 When you’ve done this, other computers on your local network will be able to view your Django site by visiting your IP address in their Web browsers, e.g., http://192.168.1.103:8000/ . (Note that you’ll have to consult your network settings to determine your IP address on the local network. Unix users, try running “ifconfig” in a command prompt to get this information. Windows users, try “ipconfig”.)
         
     
+Creating superuser for admin
+----------------------------
 
+Type the command in yout project directory and enter all the questions ::
+
+    python manage.py createsuperuser

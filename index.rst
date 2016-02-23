@@ -14,6 +14,7 @@ Contents:
    virtual_environment_usage
    installing_django 
    working_django
+   Django_and_nginx
 
 
 Indices and tables
